@@ -247,3 +247,13 @@ local.test_map.admin
 ```
  terraform destroy
 ```
+
+# Задание 8
+
+для извлечения SSH команды для dev1
+```
+var.test[0]["dev1"][0]
+
+```
+
+![alt text](image-24.png)

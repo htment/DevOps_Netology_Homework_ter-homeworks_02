@@ -31,7 +31,7 @@ locals {
 }
 
 
-
+##Этот файл для 8 задания!!
 variable "test" {
   description = "Список серверов с SSH командами и IP адресами"
   type = list(map(list(string)))
